@@ -1,4 +1,4 @@
-ViT-B/16 vs ResNet-50 on PlantVillage Targeted Symptom-Occlusion Study
+# ViT-B/16 vs ResNet-50 on PlantVillage Targeted Symptom-Occlusion Study
 Original contribution
 Instead of applying random corruption to the whole image, this project runs a targeted occlusion experiment: a heuristic mask approximates the diseased-tissue region of each leaf, and we occlude a controlled fraction of that region (25% / 50% / 75%) to see how much of the disease signature each model still needs to classify correctly. Two controls are included so the comparison is fair:
 
